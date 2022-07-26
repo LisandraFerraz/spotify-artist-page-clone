@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build-tailwind": "npx tailwind -i src/default-style.css -o public/default-styles.css"
+  }
+}

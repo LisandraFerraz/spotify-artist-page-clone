@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .sidebar {
+        @apply bg-black left-0 inset-y-0 fixed w-60 p-7
+    }
+    .sidebar-body ul li {
+        @apply font-sans text-base text-light-grey hover:text-white block relative mb-5
+    }
+    .sidebar-body ul li img {
+        @apply inline-block mr-4
+    }
+}
